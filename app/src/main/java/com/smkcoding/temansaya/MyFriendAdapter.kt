@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.my_friends_item.*
 
-class MyFriendAdapter(private val context: Context, private val items: MutableList<MyFriend>) :
+class MyFriendAdapter(private val context: Context, private val items: List<MyFriend>) :
     RecyclerView.Adapter<MyFriendAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
